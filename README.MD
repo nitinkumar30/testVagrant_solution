@@ -39,6 +39,12 @@ Here's how the example would be executed:
 6. When the song "S2" is played again, it is added to the playlist, and the oldest song "S3" is removed: ["S2", "S4", "S3"].
 7. When the song "S1" is played again, it is added to the playlist, and the oldest song "S4" is removed: ["S1", "S2", "S4"].
 
+Here's how we can run tests to validate the logic behind the solution:
+
+1. We define a function called `test_recently_played_store` that contains a series of assertions to validate the logic of the `RecentlyPlayedStore` class. Each assertion compares the actual output of a method call with the expected output.
+2. We create a `RecentlyPlayedStore` instance, add songs, retrieve recently played songs, and compare the results with the expected values. If all the assertions pass, the message "All tests passed!" is printed.
+3. You can run the `test_recently_played_store` function to execute the tests and verify that the code behaves as expected. If any of the assertions fail, an AssertionError will be raised, indicating that there is an issue with the code.
+
 # Author
 
 [Nitin Kumar](https://linkedin.com/in/nitin30kumar/)
