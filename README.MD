@@ -4,6 +4,13 @@
 > This store must have the capability to store a list of song-user pairs, with each song linked to a user.  
 > It should also be able to fetch recently played songs based on the user and eliminate the least recently played songs when the store becomes full.  
 
+# Files used
+
+1. Original solution - [main.py](main.py)
+2. Example solution - [exampleCodeImplementation.py](exampleCodeImplementation.py)
+3. Initial test to validate logic - [tests.py](tests.py)
+4. Additional tests for validating solution - [additional_tests.py](additional_tests.py)
+
 
 # Example
 
