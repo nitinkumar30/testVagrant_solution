@@ -22,6 +22,7 @@ Let's assume that the user has played 3 songs - S1, S2 and S3.
 2. Example solution - [exampleCodeImplementation.py](exampleCodeImplementation.py)
 3. Initial test to validate logic - [tests.py](tests.py)
 4. Additional tests for validating solution - [additional_tests.py](additional_tests.py)
+5. Original solution without any library/module to import - [main_withoutAnyLibrary.py](main_withoutAnyLibrary.py)
 
 
 # Code explanation
